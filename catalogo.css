@@ -1,0 +1,84 @@
+
+header{
+    height: 70px;
+    background-color: #76323f; text-shadow: black 0.10em 0.10em 0.5em;
+    display: flex;
+    color: white;
+
+    h1{
+        padding-left: 50px;
+    }
+}
+
+body{
+    margin: 0%;
+}
+
+section{
+    display: flex;
+}
+
+.aps{
+    height: calc(100vh - 70px);
+    width: 30%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white; text-shadow: black 0.10em 0.10em 0.5em;
+    font-size: 30px;
+    background-image: url("./asset/depositphotos_125014328-stock-illustration-bookshelf-books-library-vector.jpg");
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.grand{
+    background-color: #c09f80;
+    height: calc(100vh - 70px);
+    width: 70% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grand__log{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.grand__log__email{
+    width: 150px;
+    
+}
+
+.grand__log__senha{
+    width: 150px;
+
+}
+
+#botao{
+    width: 100px;
+}
+
+.grand__log{
+    background-color: #d7cec7;
+    height: 400px;
+    width: 40%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2{
+        display: flex;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black; text-shadow: black 0.1em 0.1em 0.3em;
+    }
+}
